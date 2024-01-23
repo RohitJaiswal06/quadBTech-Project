@@ -1,0 +1,19 @@
+.lists{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    list-style-type: none;
+}
+
+.lists li{
+    /* border: 1px solid black; */
+    margin-bottom: 1.5rem;
+    width: 14.25%;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.lists li img{
+    border-radius: 10px;
+}
